@@ -1,55 +1,80 @@
-[JAVASCRIPT__BADGE]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[TYPESCRIPT__BADGE]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
-[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=fff
-[NODE.JS__BADGE]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white
+<h1 align="center"> Angular Landing Page</h1>
+<p align="center">Landing page responsiva desenvolvida em Angular e TypeScript, com foco em componentização, boas práticas e performance.</p>
 
-
-<h1 align="center" style="font-weight: bold;">Landing Page Angular</h1>
+---
 
 <p align="center">
- <a href="#about">Sobre</a> • 
- <a href="#technologies">Tecnologias</a> • 
- <a href="#started">Como instalar</a>  • 
- <a href="#links">Links Úteis</a> •
- <a href="#questions">Dúvidas</a>
+  <img src="https://img.shields.io/badge/Angular-17-DD0031?logo=angular&logoColor=white" alt="Angular">
+  <img src="https://img.shields.io/badge/TypeScript-5-blue?logo=typescript&logoColor=white" alt="TypeScript">
+  <a href="https://angular-landingpage.netlify.app/"><img src="https://img.shields.io/badge/demo-online-success" alt="Demo Online"></a>
 </p>
 
-<h2 id="about">📌 Sobre</h2>
+---
 
-Landing Page criada com [Angular CLI](https://github.com/angular/angular-cli) versão 17.1.3.
+## Objetivo
 
-Você pode acessá-la [aqui](https://angular-landingpage.netlify.app/).
+Este projeto foi desenvolvido com o foco em:
 
-<h2 id="technologies">⚡️ Tecnologias</h2>
+- Criar uma **landing page moderna e responsiva**.
+- Aplicar **boas práticas de arquitetura** e **componentização** no Angular.
+- Servir como **base escalável** para futuros projetos de front-end.
 
-![angular][ANGULAR__BADGE] ![typescript][TYPESCRIPT__BADGE] ![javascript][JAVASCRIPT__BADGE] ![NODE.JS][NODE.JS__BADGE]
+---
 
-<h2 id="started">🚀 Como instalar</h2>
+## Funcionalidades
 
-Como executar este projeto localmente:
+- Layout responsivo pronto para desktop e mobile.
+- Estrutura modularizada com componentes reutilizáveis.
+- Suporte a **Server-Side Rendering (SSR)** para melhor performance e SEO.
+- Deploy automatizado no **Netlify**.
 
-<h3>Pré-requisitos</h3>
+---
 
-- [NodeJS](https://nodejs.org/en)
+## Tecnologias Utilizadas
 
-<h3>Clonando</h3>
+- [Angular](https://angular.dev/) – Framework para desenvolvimento de aplicações web modernas.
+- [TypeScript](https://www.typescriptlang.org/) – Superset do JavaScript com tipagem estática.
+- [RxJS](https://rxjs.dev/) – Programação reativa para lidar com streams de dados.
+- [Express](https://expressjs.com/) – Suporte para SSR com Angular Universal.
+- [SCSS](https://sass-lang.com/) – Estilização com suporte a variáveis e melhor organização de CSS.
 
-- Baixe ou clone este repositório usando `git clone https://github.com/jaquetrevizan/angular-landing-page.git`;
-- Dentro do diretório `cd angular-landing-page`, instale as dependências usando `npm install`.
+---
 
-<h3>Executando</h3>
+## Demonstração
 
-Execute `ng serve` para executar a versão de desenvolvimento. Depois acesse `http://localhost:4200/`.
+ ### [Visualizar online](https://angular-landingpage.netlify.app/)
 
-<h3>Compilando</h3>
+<p align="center">
+  <img width="1900" height="892" alt="Captura de tela 2025-09-29 164504" src="https://github.com/user-attachments/assets/1ca70460-3c30-4f62-838b-53bfb75b0e9c" />
+</p>
 
-Execute `ng build` para buildar o projeto. Os arquivos serão armazenados do diretório `dist`.
+---
 
-<h2 id="links">🔗 Links Úteis</h2>
+## Instalação e Execução
 
-- [Angular 17 Docs](https://angular.dev/).
+Para rodar este projeto localmente, siga os passos:
 
-<h2 id="questions">✉️ Dúvidas</h2>
+```bash
+# Clone o repositório
+git clone https://github.com/jaquetrevizan/angular-landing-page.git
 
-Se você tiver alguma dúvida sobre este repositório, envie-a para trevizan.jaqueline@gmail.com.
+# Acesse o diretório do projeto
+cd angular-landing-page
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação em modo de desenvolvimento
+npm start
+
+# Build para produção
+npm run build
+````
+
+---
+
+## Dúvidas & Sugestões
+
+- Se tiver alguma ideia para melhorar este projeto ou encontrar algum problema, fique à vontade para abrir uma issue aqui no repositório.
+- Para dúvidas mais diretas, você também pode me escrever em: trevizan.jaqueline@gmail.com.
 
